@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+
+PY_VER=3.8.7
+PY_DIR_NAME=Python-$PY_VER
+
+
+cd /tmp
+wget https://www.python.org/ftp/python/$PY_VER/$PY_DIR_NAME.tar.xz
+tar xf $PY_DIR_NAME.tar.xz
+rm $PY_DIR_NAME.tar.xz
+
+cd $PY_DIR_NAME
+./configure --enable-optimizations
+make
+sudo make install
+
+cd ..
+rm -rf $PY_DIR_NAME
