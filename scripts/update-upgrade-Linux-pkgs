@@ -2,4 +2,4 @@
 
 
 sudo apt update
-sudo apt upgrade --yes
+sudo apt upgrade --yes   # or: dist-upgrade / full-upgrade
