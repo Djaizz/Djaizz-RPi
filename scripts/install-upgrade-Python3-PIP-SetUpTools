@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 
-python3 -m pip install --upgrade PIP SetUpTools --user
+python3 -m pip install --upgrade PIP SetUpTools
 
-python3.9 -m pip install --upgrade PIP SetUpTools --user
-python3.8 -m pip install --upgrade PIP SetUpTools --user
+sudo rm -rf /usr/lib/python3.8/distutils
+sudo cp -r ~/Repos/Raspberry-AI/Python3.8-DistUtils /usr/lib/python3.8/distutils
+python3.8 -m pip install --upgrade PIP SetUpTools
