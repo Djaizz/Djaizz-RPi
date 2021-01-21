@@ -2,5 +2,4 @@
 
 
 sudo apt install --yes \
-    cmake \
     vim
