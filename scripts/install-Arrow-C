@@ -6,13 +6,32 @@
 
 sudo apt upgrade --yes cmake ninja-build
 
+
 cd /tmp
+
 git clone https://GitHub.com/Apache/Arrow
 cd Arrow/cpp
+
 mkdir release
 cd release
-cmake -GNinja ..
+
+cmake -GNinja \
+    -DARROW_PYTHON=ON \
+    -DARROW_COMPUTE=ON \
+    -DARROW_CSV=ON -DARROW_JSON=ON -DARROW_ORC=ON -DARROW_PARQUET=ON \
+    -DARROW_DATASET=ON \
+    -DARROW_FILESYSTEM=ON -DARROW_HDFS=ON -DARROW_S3=ON \
+    -DARROW_FLIGHT=ON \
+    -DARROW_GANDIVA=ON \
+    -DARROW_HIVESERVER2=ON \
+    -DARROW_PLASMA=ON \
+    -DARROW_WITH_BZ2=ON -DARROW_WITH_ZLIB=ON -DARROW_WITH_LZ4=ON \
+    -DARROW_WITH_SNAPPY=ON -DARROW_WITH_ZSTD=ON -DARROW_WITH_BROTLI=ON \
+    -DARROW_IPC=ON \
+    ..
+
 ninja
+
 sudo ninja install
 
 # cd /tmp
