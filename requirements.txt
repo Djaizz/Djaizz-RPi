@@ -15,6 +15,3 @@ Keras >= 2.4.3
 
 # UI
 Streamlit >= 0.74.1
-
-# misc/other
-Tqdm >= 4.56.0
