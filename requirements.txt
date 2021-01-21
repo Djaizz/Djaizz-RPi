@@ -8,7 +8,7 @@ SciPy >= 1.6.0
 SciKit-Learn >= 0.24.1
 TensorFlow >= 1.14.0
 Keras >= 2.4.3
-Torch >= 1.7.1
+# Torch >= 1.7.1
 
 # UI
 Streamlit >= 0.74.1
