@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
 
+# ref: https://www.ramoonus.nl/2020/10/06/how-to-install-python-3-9-on-raspberry-pi
+
+
 PY_VER=3.8.7
 PY_DIR_NAME=Python-$PY_VER
 
