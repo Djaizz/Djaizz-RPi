@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+
+# ref: https://github.com/apache/arrow/blob/master/docs/source/developers/cpp/building.rst
+
+
+cd /tmp
+git clone https://GitHub.com/Apache/Arrow
+cd Arrow/cpp
+mkdir release
+cd release
+cmake ..
+make
+make install
