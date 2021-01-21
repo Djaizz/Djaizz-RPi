@@ -13,4 +13,4 @@ mkdir release
 cd release
 cmake ..
 ninja
-make install
+sudo make install
