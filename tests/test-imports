@@ -6,8 +6,20 @@ import pandas
 # import pyarrow
 import scipy
 
+import sklearn
+import tensorflow
+import keras
+
+import streamlit
+
 
 print(f'NumPy {numpy.__version__}')
 print(f'Pandas {pandas.__version__}')
 # print(f'PyArrow {pyarrow.__version__}')
 print(f'SciPy {scipy.__version__}')
+
+print(f'SciKit-Learn {sklearn.__version__}')
+print(f'TensorFlow {tensorflow.__version__}')
+print(f'Keras {keras.__version__}')
+
+print(f'Streamlit {streamlit.__version__}')
