@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-
-sudo apt install --yes python3.8
