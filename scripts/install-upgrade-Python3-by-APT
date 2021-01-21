@@ -3,3 +3,4 @@
 
 sudo apt install --yes python3
 sudo apt upgrade --yes python3
+sudo apt autoremove --yes
