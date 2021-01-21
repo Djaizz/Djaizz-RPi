@@ -2,6 +2,7 @@
 NumPy >= 1.19.5
 Pandas >= 1.2.1
 # PyArrow >= 2.0.0
+SciPy >= 1.6.0
 
 # Machine Learning
 SciKit-Learn >= 0.24.1
