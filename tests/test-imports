@@ -2,6 +2,10 @@
 
 
 import numpy
+import pandas
+import pyarrow
 
 
 print(f'NumPy {numpy.__version__}')
+print(f'Pandas {pandas.__version__}')
+print(f'PyArrow {pyarrow.__version__}')

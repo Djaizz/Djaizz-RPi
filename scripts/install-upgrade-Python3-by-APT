@@ -6,3 +6,9 @@ sudo apt upgrade --yes \
     cmake libc-dev
 
 sudo apt autoremove --yes
+
+
+sudo rm -rf /usr/lib/python3.8/distutils
+sudo cp -r ~/Repos/Raspberry-AI/Python3.8-DistUtils /usr/lib/python3.8/distutils
+
+sudo ln -s /usr/include/python3.9 /usr/include/python3.8
