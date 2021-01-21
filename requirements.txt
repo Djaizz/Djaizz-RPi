@@ -6,6 +6,7 @@ PyArrow >= 2.0.0
 # Machine Learning
 SciKit-Learn >= 0.24.1
 TensorFlow >= 2.4.0
+Keras >= 2.4.3
 PyTorch >= 1.0.2
 
 # UI
