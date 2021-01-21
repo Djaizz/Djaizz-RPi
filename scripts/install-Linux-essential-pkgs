@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
 
-sudo apt install --yes \
-    libssl-dev
+sudo apt install \
     vim
