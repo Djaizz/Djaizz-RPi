@@ -3,7 +3,7 @@
 
 import numpy
 import pandas
-# import pyarrow
+import pyarrow
 import scipy
 
 import sklearn
@@ -15,7 +15,7 @@ import streamlit
 
 print(f'NumPy {numpy.__version__}')
 print(f'Pandas {pandas.__version__}')
-# print(f'PyArrow {pyarrow.__version__}')
+print(f'PyArrow {pyarrow.__version__}')
 print(f'SciPy {scipy.__version__}')
 
 print(f'SciKit-Learn {sklearn.__version__}')
