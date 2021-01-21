@@ -6,7 +6,7 @@ SciPy >= 1.6.0
 
 # Machine Learning
 SciKit-Learn >= 0.24.1
-TensorFlow >= 1.4.0
+TensorFlow >= 1.14.0
 Keras >= 2.4.3
 Torch >= 1.7.1
 
