@@ -6,7 +6,7 @@
 
 sudo apt upgrade --yes \
     cmake ninja-build \
-    curl libssl-dev
+    libcurl4-openssl-dev libssl-dev
 
 
 cd /tmp
