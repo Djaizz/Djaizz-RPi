@@ -6,7 +6,7 @@
 
 sudo apt upgrade --yes \
     cmake ninja-build \
-    libatlas-base-dev libcurl4-openssl-dev libssl-dev llvm-9-dev
+    libatlas-base-dev libcurl4-openssl-dev libssl-dev llvm-dev llvm-9-dev
 
 
 cd /tmp
