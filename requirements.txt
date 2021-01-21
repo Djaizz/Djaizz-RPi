@@ -1,7 +1,7 @@
 # Data Processing
 NumPy >= 1.19.5
 Pandas >= 1.2.1
-PyArrow >= 2.0.0
+# PyArrow >= 2.0.0
 SciPy >= 1.6.0
 
 # Machine Learning
@@ -11,7 +11,7 @@ Keras >= 2.4.3
 # Torch >= 1.7.1
 
 # UI
-Streamlit >= 0.74.1
+# Streamlit >= 0.74.1
 
 # misc/other
 Tqdm >= 4.56.0
