@@ -1,3 +1,6 @@
+# H1st
+https://GitHub.com/H1st-AI/H1st-Django/archive/master.zip
+
 # Data Processing
 NumPy >= 1.19.5
 Pandas >= 1.2.1
