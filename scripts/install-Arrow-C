@@ -4,7 +4,7 @@
 # ref: https://github.com/apache/arrow/blob/master/docs/source/developers/cpp/building.rst
 
 
-sudo apt upgrade --yes cmake
+sudo apt upgrade --yes cmake ninja-build
 
 cd /tmp
 git clone https://GitHub.com/Apache/Arrow
@@ -12,5 +12,5 @@ cd Arrow/cpp
 mkdir release
 cd release
 cmake ..
-make
+ninja
 make install
