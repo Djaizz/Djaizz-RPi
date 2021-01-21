@@ -11,9 +11,9 @@ git clone https://GitHub.com/Apache/Arrow
 cd Arrow/cpp
 mkdir release
 cd release
-cmake ..
+cmake -GNinja ..
 ninja
-sudo make install
+sudo ninja install
 
 # cd /tmp
 # rm -rf Arrow
