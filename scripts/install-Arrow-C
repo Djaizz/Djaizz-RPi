@@ -4,7 +4,9 @@
 # ref: https://github.com/apache/arrow/blob/master/docs/source/developers/cpp/building.rst
 
 
-sudo apt upgrade --yes cmake ninja-build
+sudo apt upgrade --yes \
+    cmake ninja-build \
+    libssl-dev
 
 
 cd /tmp
