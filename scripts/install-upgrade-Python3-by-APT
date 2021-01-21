@@ -3,7 +3,7 @@
 
 sudo apt upgrade --yes \
     python3 python3-dev \
-    cmake libc-dev
+    cmake libatlas-base-dev libc-dev
 
 sudo apt autoremove --yes
 
