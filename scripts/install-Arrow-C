@@ -30,6 +30,11 @@ cmake -GNinja \
     -DARROW_WITH_SNAPPY=ON -DARROW_WITH_ZSTD=ON -DARROW_WITH_BROTLI=ON \
     -DARROW_IPC=ON \
     ..
+# SKIPPED:
+# -DARROW_CUDA=ON: CUDA integration for GPU development. Depends on NVIDIA CUDA toolkit. The CUDA toolchain used to build the library can be customized by using the $CUDA_HOME environment variable.
+# -DARROW_GANDIVA=ON: Gandiva expression compiler, depends on LLVM, Protocol Buffers, and re2
+# -DARROW_GANDIVA_JAVA=ON: Gandiva JNI bindings for Java
+# -DARROW_PLASMA_JAVA_CLIENT=ON: Build Java client for Plasma
 
 ninja
 
