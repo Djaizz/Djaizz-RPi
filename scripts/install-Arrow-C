@@ -24,7 +24,6 @@ cmake -GNinja \
     -DARROW_DATASET=ON \
     -DARROW_FILESYSTEM=ON \
     -DARROW_FLIGHT=ON \
-    -DARROW_PLASMA=ON \
     -DARROW_WITH_BZ2=ON -DARROW_WITH_ZLIB=ON -DARROW_WITH_LZ4=ON \
     -DARROW_WITH_SNAPPY=ON -DARROW_WITH_ZSTD=ON -DARROW_WITH_BROTLI=ON \
     -DARROW_IPC=ON \
@@ -35,6 +34,7 @@ cmake -GNinja \
 # -DARROW_GANDIVA_JAVA=ON: Gandiva JNI bindings for Java
 # -DARROW_HDFS=ON: Arrow integration with libhdfs for accessing the Hadoop Filesystem
 # -DARROW_HIVESERVER2=ON: Client library for HiveServer2 database protocol
+# -DARROW_PLASMA=ON: Plasma Shared Memory Object Store
 # -DARROW_PLASMA_JAVA_CLIENT=ON: Build Java client for Plasma
 # -DARROW_S3=ON: Support for Amazon S3-compatible filesystems
 
