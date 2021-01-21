@@ -6,6 +6,7 @@ MINICONDA3_32BIT_INSTALLER_FILE_NAME=Miniconda3-latest-Linux-x86.sh
 
 cd /tmp
 wget https://repo.anaconda.com/miniconda/$MINICONDA3_32BIT_INSTALLER_FILE_NAME
+rm -rf /home/pi/miniconda3
 sh $MINICONDA3_32BIT_INSTALLER_FILE_NAME
 # FIXME: installing 32-bit Miniconda3 fails on Raspbian Buster
 
