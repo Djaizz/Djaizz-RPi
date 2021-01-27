@@ -1,26 +1,6 @@
 #!/usr/bin/env bash
 
 
-# ref: https://www.ramoonus.nl/2020/10/06/how-to-install-python-3-9-on-raspberry-pi
-
-
-PY_VER=3.8.7
-PY_DIR_NAME=Python-$PY_VER
-
-
-sudo apt install --yes \
-    libssl-dev
-
-
-cd /tmp
-wget https://www.python.org/ftp/python/$PY_VER/$PY_DIR_NAME.tar.xz
-tar xf $PY_DIR_NAME.tar.xz
-rm $PY_DIR_NAME.tar.xz
-
-cd $PY_DIR_NAME
-./configure --enable-optimizations
-make
-sudo make install
-
-cd ..
-rm -rf $PY_DIR_NAME
+sudo apt upgrade --yes \
+    mariadb-client \
+    postgresql-client
